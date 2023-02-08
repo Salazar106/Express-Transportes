@@ -5,7 +5,7 @@ import serv2 from "../../imgs/business-people.png";
 import serv3 from "../../imgs/discapacitado.png";
 import serv4 from "../../imgs/ejecutivos.png";
 import serv5 from "../../imgs/viajeros.png";
-import fondo from '../../imgs/417express.jpg'
+
 
 const Servicios = () => {
   return (

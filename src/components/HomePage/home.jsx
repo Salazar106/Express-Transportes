@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 import Servicios from "./servicios";
 import img1 from "./../../imgs/imgexpress.jpg";
-import img2 from "../../imgs/img.png";
+
 
 
 const Home = () => {
