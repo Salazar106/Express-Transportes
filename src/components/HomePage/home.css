@@ -1,0 +1,42 @@
+.carousel-mine {
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+.mycards {
+    margin-top: 15px;
+    width: 300px;
+    height: 450px;
+    transition: 1s;
+
+    
+}
+.card{
+    height: 400px;
+}
+.mycards:hover {
+   scale: 1.1;
+
+}
+
+.mycards img{
+    transition: 1s;
+    
+}
+
+.mycards:hover img{
+    filter: opacity(.6);
+}
+
+.text-center{
+
+   margin-top: 80px;
+   margin-bottom: 80px;
+
+}
+.text-center h1{
+font-size: 70px;
+
+}

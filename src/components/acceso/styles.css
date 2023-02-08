@@ -1,0 +1,33 @@
+
+
+
+
+.btn-mine1{
+    background-color: #eab52c;
+    color: white;
+    transition: all 0.5s;
+    border-radius: 30px;
+    
+}
+
+.btn-mine1:hover{
+    background-color: #d8a422;
+    color: white;
+    scale: 1.1;
+}
+
+.container{
+    
+    background-color: #dcdcdd8a;
+    display: grid;
+    width: 600px;
+    height: auto;
+    border-radius: 18px;
+
+}
+
+@media only screen and (max-width: 650px) and (min-width: 200px){
+   .container{
+    width: 400px;
+   }
+  }

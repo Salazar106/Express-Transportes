@@ -1,0 +1,64 @@
+.nav{
+    height: 150px;
+    background-color: #2C81A5;
+    margin: 20px;
+    padding: 5px;
+    text-align: end;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 18px;
+    align-items: center;
+    display: 100%;
+    border:solid #266e8d;
+  }
+  .menu{
+    justify-content: end;
+    
+    
+
+  }
+  
+  .nav img{
+    height: 80px;
+    width: 80px;
+    justify-content: left;
+
+  }
+  .nav a{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration-line: none;
+    color: white;
+    font-size: 20px;
+    transition: all 0.5s;
+    float: left;
+  
+  }
+  
+  .nav a:hover{
+    scale: 1.2;
+    color: white;
+    border-radius: 4px;
+    text-decoration: underline;
+  }
+
+  .logotipo{
+    color: white;
+    font-style: italic;
+    transition: all 1s;
+    margin: 2px;
+  }
+  .logotipo:hover{
+    color: white;
+    font-style: italic;
+    scale: 1.1;
+  }
+
+  @media only screen and (max-width: 980px) and (min-width: 200px){
+    .logotipo{
+        display:none !important;   
+    }
+    .nav{
+      height: 200px;
+    }
+  }
