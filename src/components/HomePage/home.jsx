@@ -10,18 +10,18 @@ const Home = () => {
     <>
       <div
         id="carouselExampleSlidesOnly"
-        class="carousel slide carousel-mine animate__animated animate__slideInLeft"
+        className="carousel slide carousel-mine animate__animated animate__slideInLeft"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={img1} class="d-block w-100" alt="..." />
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={img1} className="d-block w-100" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={img1} class="d-block w-100 " alt="..." />
+          <div className="carousel-item">
+            <img src={img1} className="d-block w-100 " alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src={img1} class="d-block w-100" alt="..." />
+          <div className="carousel-item">
+            <img src={img1} className="d-block w-100" alt="..." />
           </div>
         </div>
       </div>
